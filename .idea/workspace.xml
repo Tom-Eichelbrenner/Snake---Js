@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c3ab919-0e16-44c1-927a-22a26187ed9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Le Serpent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Le Serpent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Apple.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Snake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Helpers/gameOver.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Helpers/gameOver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Helpers/saveBestScore.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Helpers/saveBestScore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Helpers/setSpeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Helpers/setSpeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/play.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/play.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/Components/variables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +31,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cleaning" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1n6ommccH8FaQBYjyfrnXnFfnVM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,6 +54,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pro\projets\Le Serpent\src" />
+      <recent name="E:\pro\projets\Le Serpent\Components\Helpers" />
+      <recent name="E:\pro\projets\Le Serpent\Components" />
+      <recent name="E:\pro\projets\Le Serpent\Components\Functions" />
+      <recent name="E:\pro\projets\Le Serpent\Components\Classes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -57,6 +77,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610720063269</updated>
       <workItem from="1610720064872" duration="1626000" />
+      <workItem from="1610810610987" duration="174000" />
+      <workItem from="1610810854016" duration="4280000" />
     </task>
     <servers />
   </component>
@@ -80,10 +103,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
