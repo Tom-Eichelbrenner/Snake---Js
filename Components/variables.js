@@ -16,6 +16,11 @@ const widthInBlock = width / blockSize;
 const heightInBlock = height / blockSize;
 
 let endGame = false;
+const setEndGame = () => {
+    endGame = true;
+    return endGame
+};
+export default setEndGame
 
 const snake = new Snake();
 const apple = new Apple();

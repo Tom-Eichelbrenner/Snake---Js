@@ -4,6 +4,7 @@ import {drawBestScore} from "./Helpers/drawBestScore";
 import {drawBorder} from "./Helpers/drawBorder";
 import {setSpeed} from "./Helpers/setSpeed";
 import {apple, ctx, endGame, height, snake, width} from "./variables";
+import move from "./Helpers/direction";
 
 function interval() {
     if (endGame) {
@@ -20,5 +21,4 @@ function interval() {
     drawBorder();
     setTimeout(() => play = requestAnimationFrame(interval), setSpeed())
 }
-
 let play = requestAnimationFrame(interval);
