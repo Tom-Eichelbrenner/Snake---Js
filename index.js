@@ -1,3 +1,3 @@
 import './index.css'
-import './index.css'
-import './app'
+import './Components/variables'
+import './Components/play'
