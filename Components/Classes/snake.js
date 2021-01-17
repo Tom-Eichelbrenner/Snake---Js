@@ -18,7 +18,31 @@ export class Snake {
     }
 
     setDirection(newDirection) {
-        this.direction = newDirection
+        if (newDirection === "right") {
+            if (this.direction === "left") {
+                this.direction = "left";
+            } else {
+                this.direction = newDirection;
+            }
+        } else if (newDirection === "left") {
+            if (this.direction === "right") {
+                this.direction = "right";
+            } else {
+                this.direction = "left";
+            }
+        } else if (newDirection === "up") {
+            if (this.direction === "down") {
+                this.direction = "down";
+            } else {
+                this.direction = "up";
+            }
+        } else if (newDirection === "down") {
+            if (this.direction === "up") {
+                this.direction = "up";
+            } else {
+                this.direction = "down";
+            }
+        }
     }
 
     checkCollision(head) {
