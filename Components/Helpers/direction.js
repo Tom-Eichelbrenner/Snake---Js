@@ -5,6 +5,10 @@ const directions = {
     38: "up",
     39: "right",
     40: "down",
+    90: "up",
+    81: "left",
+    83: "down",
+    68: "right"
 };
 const move = () => (
     addEventListener("keydown", function (event) {

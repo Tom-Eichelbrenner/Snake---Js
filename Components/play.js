@@ -16,6 +16,7 @@ function interval() {
     drawScore();
     drawBestScore();
     snake.move();
+    console.log(snake)
     snake.draw();
     apple.draw();
     drawBorder();
