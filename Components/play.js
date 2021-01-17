@@ -6,6 +6,8 @@ import {setSpeed} from "./Helpers/setSpeed";
 import {apple, ctx, endGame, height, snake, width} from "./variables";
 import move from "./Helpers/direction";
 
+
+
 function interval() {
     if (endGame) {
         saveBestScore();
@@ -16,7 +18,6 @@ function interval() {
     drawScore();
     drawBestScore();
     snake.move();
-    console.log(snake)
     snake.draw();
     apple.draw();
     drawBorder();
